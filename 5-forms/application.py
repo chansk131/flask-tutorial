@@ -9,4 +9,5 @@ def index():
 @app.route("/hello", methods=["POST"])
 def hello():
     name = request.form.get("name")
+    password = request.form.get("password")
     return render_template("hello.html", name=name)

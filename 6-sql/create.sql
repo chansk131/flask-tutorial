@@ -1,0 +1,6 @@
+CREATE TABLE flights (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    origin VARCHAR NOT NULL,
+    destination VARCHAR NOT NULL,
+    duration INTEGER NOT NULL
+);
